@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { useState } from 'react'
 
 function Pneu() {
@@ -26,7 +26,7 @@ function Pneu() {
           />
           <p>Calcular pressão</p>
           <button onClick={calculaPressao}>Calcular Diferença</button>
-          <p>Resultado: {inputResultado}</p>
+          <p>A diferença de pressão é {inputResultado}</p>
         </div>
     )
 }
